@@ -1,13 +1,14 @@
 import Meta from "@/components/Meta";
+import Head from "next/head";
 import React from "react";
 
-const index = () => {
+const about = () => {
   return (
     <div>
       <Meta />
-      <h1>Blog</h1>
+      <h2>About</h2>
     </div>
   );
 };
 
-export default index;
+export default about;
